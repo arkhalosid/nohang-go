@@ -85,8 +85,6 @@ Environment variables: `NOANG_CONFIG_PATH`, `NOANG_LOG_FILE`, `NOANG_SYSLOG`.
 | Aspect     | Python | Go |
 |------------|--------|----|
 | Dependencies | >10 PyPI packages | 0 (stdlib) |
-| Binary     | script + interpreter | static ~2.3 MB |
-| Performance | ~50-100 ms/cycle | ~1-5 ms/cycle |
 | `-m` (memload) | yes | not implemented |
 | Daemon mode | systemd/openrc | systemd/openrc |
 
